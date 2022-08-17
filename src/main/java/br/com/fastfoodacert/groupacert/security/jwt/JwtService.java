@@ -15,11 +15,11 @@ import java.util.Date;
 @Service
 public class JwtService {
 
-    @Value("${campo.login.obrigatorio}")
-    private String expiracao;
+   // @Value("${campo.login.obrigatorio}")
+    private String expiracao = "30";
 
-    @Value("${security.jwt.chave-assinatura}")
-    private String chaveAssinatura;
+   // @Value("${security.jwt.chave-assinatura}")
+    private final String chaveAssinatura = "dGVzdGUg";
 
     public String gerarToken(Usuario usuario){
         long expString = Long.parseLong(expiracao);
