@@ -16,7 +16,7 @@ arrow_forward)
  Teste realizado para Analista de Sistemas Java.
 </p>
 <p align="justify">
-  Projeto realiza simplificado para controle de Delivery de um restaurante. 
+  Projeto simplificado para controle de Delivery de um restaurante. 
 </p>
 
 ## Funcionalidades
