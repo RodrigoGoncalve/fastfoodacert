@@ -4,7 +4,7 @@
 # Passos para ultização do Sistema:
 # - Ir na api de Usuario e criar um usuario.
 # - Autenticar Usuario.
-# - Colocar o token gerado no button, fazendo Authorize, para ter acesso as outras Apis.
+# - Colocar o token gerado no button Authorize, para ter acesso as outras Apis.
 # - Cadastrar um novo Cliente, tendo como regra -> e-mail unico, cpf com 11 caracteres, e todos os dados são obrigatórios.
 # - Cadastrar produtos.
 # - Cadastrar pedidos.
