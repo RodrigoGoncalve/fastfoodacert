@@ -11,6 +11,7 @@ import br.com.fastfoodacert.groupacert.repository.ProdutoRepositorie;
 import br.com.fastfoodacert.groupacert.service.PedidoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -27,6 +28,7 @@ public class PedidoServiceImpl implements PedidoService {
 
 
     @Override
+    @Transactional
     public Pedido criarPedido(PedidoDTO dto) {
         Integer idCliente = dto.getIdCliente();
         Cliente cliente = buscarCliente(idCliente);
