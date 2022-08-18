@@ -7,6 +7,8 @@ import br.com.fastfoodacert.groupacert.entities.dto.TokenDTO;
 import br.com.fastfoodacert.groupacert.exceptions.SenhaInvalidaException;
 import br.com.fastfoodacert.groupacert.security.jwt.JwtService;
 import br.com.fastfoodacert.groupacert.service.impl.UsuarioServiceImpl;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,6 +22,7 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/usuarios")
 @RequiredArgsConstructor
+@Api("Api Usuario")
 public class UsuarioController {
 
     private final UsuarioServiceImpl usuarioService;
@@ -30,6 +33,7 @@ public class UsuarioController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
+    @ApiOperation("Criar login de Usuario")
     public Usuario salvar(@Valid  @RequestBody Usuario usuario){
 
         String senhaCriptografada = passwordEncoder.encode(usuario.getSenha());
@@ -39,6 +43,7 @@ public class UsuarioController {
     }
 
     @PostMapping("/auth")
+    @ApiOperation("Gerar token")
     public TokenDTO authenticar(@RequestBody CredenciaisDTO credenciaisDTO){
         try {
             Usuario usuario = Usuario.builder()
