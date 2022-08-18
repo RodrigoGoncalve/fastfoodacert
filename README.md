@@ -63,7 +63,7 @@ endereco das Apis :
 
 :warning: [Java 8](https://www.java.com/pt-BR/)
 :warning: [Spring Boot](https://spring.io/projects/spring-boot)
-:warning: [firbirde]()
+:warning: [firebirde]()
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
