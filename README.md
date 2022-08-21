@@ -26,7 +26,7 @@ arrow_forward)
 :heavy_check_mark: Api de Cliente -> Cadastrar clientes do restaurantes, deletar, busca por ID, e busca de todos os clientes, 
 endereco das Apis : 
 
-#Cadastro -> localhost:8080/clientes/cadastrar
+#Cadastro -> localhost:8080/clientes/cadastrar<br>
 #Lista de clientes -> localhost:8080/clientes
 #Busca por ID -> localhost:8080/clientes/{id}
 #Deletar -> localhost:8080/clientes/{id}
@@ -50,7 +50,7 @@ endereco das Apis :
 #Deletar -> localhost:8080/pedido/{id}
 #Atualizar -> localhost:8080/pedido/{id}
 
-:heavy_check_mark: Api de Produto -> Cadastrar entregas do restaurantes, deletar, busca por ID, e busca de todos os entrega,
+:heavy_check_mark: Api de Entrega -> Cadastrar entregas do restaurantes, deletar, busca por ID, e busca de todos os entrega,
 endereco das Apis : 
 
 #Cadastro -> localhost:8080/entrega/cadastrar
