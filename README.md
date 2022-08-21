@@ -24,40 +24,40 @@ arrow_forward)
 :heavy_check_mark: Segurança -> Permite o cadastro de usuario e login, com autenticação JWT. So após este processo, conseguimos acessar o restante das Apis.
 
 :heavy_check_mark: Api de Cliente -> Cadastrar clientes do restaurantes, deletar, busca por ID, e busca de todos os clientes, 
-endereco das Apis : 
+endereco das Apis :<br>
 
 #Cadastro -> localhost:8080/clientes/cadastrar<br>
-#Lista de clientes -> localhost:8080/clientes
-#Busca por ID -> localhost:8080/clientes/{id}
-#Deletar -> localhost:8080/clientes/{id}
-#Atualizar -> localhost:8080/clientes/{id}
+#Lista de clientes -> localhost:8080/clientes<br>
+#Busca por ID -> localhost:8080/clientes/{id}<br>
+#Deletar -> localhost:8080/clientes/{id}<br>
+#Atualizar -> localhost:8080/clientes/{id}<br><br>
 
 :heavy_check_mark: Api de Produto -> Cadastrar produtos do restaurantes, deletar, busca por ID, e busca de todos os produtos
-endereco das Apis : 
+endereco das Apis :<br>
 
-#Cadastro -> localhost:8080/produtos/cadastrar
-#Lista de clientes -> localhost:8080/produtos
-#Busca por ID -> localhost:8080/produtos/{id}
-#Deletar -> localhost:8080/produtos/{id}
-#Atualizar -> localhost:8080/produtos/{id}
+#Cadastro -> localhost:8080/produtos/cadastrar<br>
+#Lista de clientes -> localhost:8080/produtos<br>
+#Busca por ID -> localhost:8080/produtos/{id}<br>
+#Deletar -> localhost:8080/produtos/{id}<br>
+#Atualizar -> localhost:8080/produtos/{id}<br>
 
 :heavy_check_mark: Api de Pedido -> Cadastrar pedidos do restaurantes, deletar, busca por ID, e busca de todos os pedidos,
-endereco das Apis : 
+endereco das Apis : <br>
 
-#Cadastro -> localhost:8080/pedido/cadastrar
-#Lista de clientes -> localhost:8080/pedido
-#Busca por ID -> localhost:8080/pedido/{id}
-#Deletar -> localhost:8080/pedido/{id}
-#Atualizar -> localhost:8080/pedido/{id}
+#Cadastro -> localhost:8080/pedido/cadastrar<br>
+#Lista de clientes -> localhost:8080/pedido<br>
+#Busca por ID -> localhost:8080/pedido/{id}<br>
+#Deletar -> localhost:8080/pedido/{id}<br>
+#Atualizar -> localhost:8080/pedido/{id}<br>
 
 :heavy_check_mark: Api de Entrega -> Cadastrar entregas do restaurantes, deletar, busca por ID, e busca de todos os entrega,
-endereco das Apis : 
+endereco das Apis : <br>
 
-#Cadastro -> localhost:8080/entrega/cadastrar
-#Lista de clientes -> localhost:8080/entrega
-#Busca por ID -> localhost:8080/entrega/{id}
-#Deletar -> localhost:8080/entrega/{id}
-#Atualizar -> localhost:8080/entrega/{id}
+#Cadastro -> localhost:8080/entrega/cadastrar<br>
+#Lista de clientes -> localhost:8080/entrega<br>
+#Busca por ID -> localhost:8080/entrega/{id}<br>
+#Deletar -> localhost:8080/entrega/{id}<br>
+#Atualizar -> localhost:8080/entrega/{id}<br>
 
 ## Pré-requisitos
 
